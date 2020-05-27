@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.fdm0506.stockify.reportservice.controller.Controller</OriginalElement>
+  <nodes>
+    <node x="984.6045086119555" y="1078.0">com.fdm0506.stockify.reportservice.share.Shares</node>
+    <node x="926.3376266464031" y="79.0">lombok.AllArgsConstructor.AnyAnnotation</node>
+    <node x="1468.8478596757855" y="1089.0">com.fdm0506.stockify.reportservice.stock.StocksReport</node>
+    <node x="0.0" y="158.0">org.springframework.data.repository.CrudRepository</node>
+    <node x="1694.6501266464031" y="235.0">org.springframework.data.mongodb.core.mapping.Document</node>
+    <node x="217.4999999999999" y="79.0">org.springframework.data.repository.NoRepositoryBean</node>
+    <node x="2219.347859675785" y="280.0">java.lang.FunctionalInterface</node>
+    <node x="2381.264526342452" y="1175.0">org.springframework.stereotype.Service</node>
+    <node x="12.75" y="79.0">org.springframework.data.repository.Repository</node>
+    <node x="23.25" y="0.0">org.springframework.stereotype.Indexed</node>
+    <node x="1596.8478596757855" y="628.0">com.fdm0506.stockify.reportservice.stock.Stock</node>
+    <node x="1761.75" y="1385.0">com.fdm0506.stockify.reportservice.repository.StockRepository</node>
+    <node x="223.53952634245206" y="1109.0">org.springframework.data.mongodb.repository.MongoRepository</node>
+    <node x="0.0" y="1874.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="94.23762664640299" y="747.0">org.springframework.data.repository.PagingAndSortingRepository</node>
+    <node x="889.48164893617" y="747.0">javax.xml.bind.annotation.XmlRootElement</node>
+    <node x="2536.264526342452" y="1428.0">org.springframework.web.bind.annotation.RestController</node>
+    <node x="2145.264526342452" y="1175.0">com.fdm0506.stockify.reportservice.util.SimpleComparator</node>
+    <node x="1436.3376266464031" y="79.0">lombok.NoArgsConstructor.AnyAnnotation</node>
+    <node x="345.2376266464031" y="703.0">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+    <node x="1320.7127152988855" y="1584.0">com.fdm0506.stockify.reportservice.controller.Controller</node>
+    <node x="724.50664893617" y="1078.0">com.fdm0506.stockify.reportservice.share.Share</node>
+    <node x="98.5" y="2087.0">com.fdm0506.stockify.reportservice.ReportServiceApplication</node>
+    <node x="1144.8376266464031" y="268.0">lombok.Data</node>
+    <node x="1989.8478596757852" y="571.0">java.util.Comparator</node>
+    <node x="866.8376266464031" y="246.0">lombok.AllArgsConstructor</node>
+    <node x="304.53952634245206" y="1428.0">com.fdm0506.stockify.reportservice.repository.SharesRepository</node>
+    <node x="1376.8376266464031" y="235.0">lombok.NoArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.fdm0506.stockify.reportservice.stock.StocksReport" target="com.fdm0506.stockify.reportservice.stock.Stock">
+      <point x="84.0" y="-112.5" />
+      <point x="1664.8478596757855" y="1058.0" />
+      <point x="1655.6811930091185" y="1058.0" />
+      <point x="-117.66666666666674" y="156.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="com.fdm0506.stockify.reportservice.repository.SharesRepository">
+      <point x="-150.42857142857156" y="-122.5" />
+      <point x="1345.784143870314" y="1564.0" />
+      <point x="411.53952634245206" y="1564.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+      <point x="-71.75" y="-136.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.Stock" target="lombok.Data">
+      <point x="-44.125" y="-156.5" />
+      <point x="1729.2228596757855" y="471.0" />
+      <point x="1330.3376266464031" y="471.0" />
+      <point x="79.5" y="26.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Share" target="lombok.AllArgsConstructor">
+      <point x="-79.5" y="-123.5" />
+      <point x="751.00664893617" y="1058.0" />
+      <point x="742.3626266464031" y="1058.0" />
+      <point x="742.3626266464031" y="511.0" />
+      <point x="944.2376266464031" y="511.0" />
+      <point x="-51.60000000000002" y="48.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.Stock" target="lombok.NoArgsConstructor">
+      <point x="44.125" y="-156.5" />
+      <point x="1817.4728596757855" y="461.0" />
+      <point x="1602.5876266464031" y="461.0" />
+      <point x="96.75" y="59.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Shares" target="lombok.AllArgsConstructor">
+      <point x="-63.40000000000009" y="-123.5" />
+      <point x="1079.7045086119554" y="1058.0" />
+      <point x="1072.9816489361701" y="1058.0" />
+      <point x="1072.9816489361701" y="511.0" />
+      <point x="995.8376266464031" y="511.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="java.util.Comparator">
+      <point x="100.28571428571422" y="-122.5" />
+      <point x="1596.4984295845998" y="1554.0" />
+      <point x="2525.764526342452" y="1554.0" />
+      <point x="2525.764526342452" y="1058.0" />
+      <point x="2523.181193009119" y="1058.0" />
+      <point x="213.33333333333348" y="213.5" />
+    </edge>
+    <edge source="org.springframework.data.mongodb.repository.MongoRepository" target="org.springframework.data.repository.NoRepositoryBean">
+      <point x="0.0" y="-92.5" />
+      <point x="358.03952634245206" y="1058.0" />
+      <point x="334.7376266464031" y="1058.0" />
+      <point x="334.7376266464031" y="133.0" />
+      <point x="350.83333333333326" y="133.0" />
+      <point x="53.33333333333337" y="14.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="lombok.AllArgsConstructor">
+      <point x="-100.28571428571422" y="-122.5" />
+      <point x="1395.9270010131713" y="1554.0" />
+      <point x="663.7376266464031" y="1554.0" />
+      <point x="663.7376266464031" y="501.0" />
+      <point x="892.6376266464031" y="501.0" />
+      <point x="-103.20000000000005" y="48.5" />
+    </edge>
+    <edge source="java.util.Comparator" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-213.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Shares" target="javax.xml.bind.annotation.XmlRootElement">
+      <point x="-126.79999999999995" y="-123.5" />
+      <point x="1016.3045086119555" y="1058.0" />
+      <point x="1019.23164893617" y="1058.0" />
+      <point x="43.25" y="37.5" />
+    </edge>
+    <edge source="java.util.Comparator" target="java.util.Comparator">
+      <point x="-213.33333333333337" y="213.5" />
+      <point x="2096.514526342452" y="1018.0" />
+      <point x="1969.8478596757852" y="1018.0" />
+      <point x="1969.8478596757852" y="784.5" />
+      <point x="-320.0" y="-0.0" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Shares" target="org.springframework.data.mongodb.core.mapping.Document">
+      <point x="126.79999999999995" y="-123.5" />
+      <point x="1269.9045086119554" y="1058.0" />
+      <point x="1349.0978596757855" y="1058.0" />
+      <point x="1349.0978596757855" y="551.0" />
+      <point x="1735.6501266464031" y="551.0" />
+      <point x="-41.0" y="59.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository">
+      <point x="-57.5" y="-37.5" />
+      <point x="151.737626646403" y="551.0" />
+      <point x="143.5" y="551.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.repository.StockRepository" target="com.fdm0506.stockify.reportservice.stock.StocksReport">
+      <point x="-30.799999999999955" y="-69.5" />
+      <point x="1807.9499999999998" y="1355.0" />
+      <point x="1655.514526342452" y="1355.0" />
+      <point x="74.66666666666674" y="112.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor" target="lombok.NoArgsConstructor.AnyAnnotation">
+      <point x="-64.5" y="-59.5" />
+      <point x="1441.3376266464031" y="133.0" />
+      <point x="1471.0876266464031" y="133.0" />
+      <point x="-34.75" y="14.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Share" target="javax.xml.bind.annotation.XmlRootElement">
+      <point x="79.5" y="-123.5" />
+      <point x="910.00664893617" y="1058.0" />
+      <point x="932.73164893617" y="1058.0" />
+      <point x="-43.25" y="37.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="com.fdm0506.stockify.reportservice.stock.StocksReport">
+      <point x="0.0" y="-122.5" />
+      <point x="1496.2127152988855" y="1365.0" />
+      <point x="1506.1811930091185" y="1365.0" />
+      <point x="-74.66666666666674" y="112.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.repository.StockRepository" target="com.fdm0506.stockify.reportservice.util.SimpleComparator">
+      <point x="30.799999999999955" y="-69.5" />
+      <point x="1869.5499999999997" y="1355.0" />
+      <point x="2253.264526342452" y="1355.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor" target="lombok.AllArgsConstructor.AnyAnnotation">
+      <point x="-64.5" y="-48.5" />
+      <point x="931.3376266464031" y="133.0" />
+      <point x="961.0876266464031" y="133.0" />
+      <point x="-34.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean">
+      <point x="57.5" y="-37.5" />
+      <point x="266.737626646403" y="551.0" />
+      <point x="297.4999999999999" y="551.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Shares" target="lombok.NoArgsConstructor">
+      <point x="63.40000000000009" y="-123.5" />
+      <point x="1206.5045086119555" y="1048.0" />
+      <point x="1308.2228596757855" y="1048.0" />
+      <point x="1308.2228596757855" y="541.0" />
+      <point x="1473.5876266464031" y="541.0" />
+      <point x="-32.25" y="59.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.Stock" target="lombok.AllArgsConstructor">
+      <point x="-132.375" y="-156.5" />
+      <point x="1640.9728596757855" y="481.0" />
+      <point x="1099.0376266464032" y="481.0" />
+      <point x="103.20000000000005" y="48.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.util.SimpleComparator" target="com.fdm0506.stockify.reportservice.stock.Stock">
+      <point x="-54.0" y="-26.5" />
+      <point x="2199.264526342452" y="1058.0" />
+      <point x="1891.014526342452" y="1058.0" />
+      <point x="117.66666666666674" y="156.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="com.fdm0506.stockify.reportservice.repository.StockRepository">
+      <point x="50.14285714285711" y="-122.5" />
+      <point x="1546.3555724417427" y="1544.0" />
+      <point x="1838.75" y="1544.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.repository.StockRepository" target="org.springframework.stereotype.Service">
+      <point x="61.59999999999991" y="-69.5" />
+      <point x="1900.35" y="1365.0" />
+      <point x="2448.264526342452" y="1365.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Share" target="lombok.Data">
+      <point x="-26.5" y="-123.5" />
+      <point x="804.00664893617" y="1058.0" />
+      <point x="839.7545086119554" y="1058.0" />
+      <point x="839.7545086119554" y="521.0" />
+      <point x="1171.3376266464031" y="521.0" />
+      <point x="-79.5" y="26.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.Stock" target="org.springframework.data.mongodb.core.mapping.Document">
+      <point x="132.375" y="-156.5" />
+      <point x="1905.7228596757855" y="451.0" />
+      <point x="1817.6501266464031" y="451.0" />
+      <point x="41.0" y="59.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Shares" target="lombok.Data">
+      <point x="0.0" y="-123.5" />
+      <point x="1143.1045086119555" y="1038.0" />
+      <point x="1228.8376266464031" y="1038.0" />
+      <point x="1228.8376266464031" y="521.0" />
+      <point x="1224.3376266464031" y="521.0" />
+      <point x="-26.5" y="26.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.share.Share" target="lombok.NoArgsConstructor">
+      <point x="26.5" y="-123.5" />
+      <point x="857.00664893617" y="1058.0" />
+      <point x="850.7545086119554" y="1058.0" />
+      <point x="850.7545086119554" y="531.0" />
+      <point x="1409.0876266464031" y="531.0" />
+      <point x="-96.75" y="59.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="com.fdm0506.stockify.reportservice.share.Shares">
+      <point x="-50.14285714285711" y="-122.5" />
+      <point x="1446.0698581560284" y="1544.0" />
+      <point x="1222.3545086119555" y="1544.0" />
+      <point x="79.25" y="123.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.util.SimpleComparator" target="java.util.Comparator">
+      <point x="54.0" y="-26.5" />
+      <point x="2307.264526342452" y="1058.0" />
+      <point x="2309.847859675785" y="1058.0" />
+      <point x="0.0" y="213.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.ReportServiceApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.repository.StockRepository" target="com.fdm0506.stockify.reportservice.stock.Stock">
+      <point x="0.0" y="-69.5" />
+      <point x="1838.75" y="1345.0" />
+      <point x="1789.9627152988855" y="1345.0" />
+      <point x="1789.9627152988855" y="1058.0" />
+      <point x="1773.3478596757855" y="1058.0" />
+      <point x="0.0" y="156.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor.AnyAnnotation" target="lombok.NoArgsConstructor">
+      <point x="34.75" y="14.5" />
+      <point x="1540.5876266464031" y="133.0" />
+      <point x="1570.3376266464031" y="133.0" />
+      <point x="64.5" y="-59.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.controller.Controller" target="org.springframework.web.bind.annotation.RestController">
+      <point x="150.42857142857156" y="-122.5" />
+      <point x="1646.641286727457" y="1564.0" />
+      <point x="2609.264526342452" y="1564.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="org.springframework.data.mongodb.repository.MongoRepository" target="org.springframework.data.repository.PagingAndSortingRepository">
+      <point x="-89.66666666666669" y="-92.5" />
+      <point x="268.3728596757853" y="1058.0" />
+      <point x="209.237626646403" y="1058.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.repository.SharesRepository" target="com.fdm0506.stockify.reportservice.share.Shares">
+      <point x="53.5" y="-26.5" />
+      <point x="465.03952634245206" y="1365.0" />
+      <point x="1063.8545086119555" y="1365.0" />
+      <point x="-79.25" y="123.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.StocksReport" target="lombok.Data">
+      <point x="-28.0" y="-112.5" />
+      <point x="1552.8478596757855" y="1058.0" />
+      <point x="1523.8168819655523" y="1058.0" />
+      <point x="1523.8168819655523" y="491.0" />
+      <point x="1277.3376266464031" y="491.0" />
+      <point x="26.5" y="26.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.StocksReport" target="lombok.NoArgsConstructor">
+      <point x="28.0" y="-112.5" />
+      <point x="1608.8478596757855" y="1058.0" />
+      <point x="1586.3478596757855" y="1058.0" />
+      <point x="1586.3478596757855" y="541.0" />
+      <point x="1538.0876266464031" y="541.0" />
+      <point x="32.25" y="59.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor.AnyAnnotation" target="lombok.AllArgsConstructor">
+      <point x="34.75" y="14.5" />
+      <point x="1030.5876266464031" y="133.0" />
+      <point x="1060.3376266464031" y="133.0" />
+      <point x="64.5" y="-48.5" />
+    </edge>
+    <edge source="org.springframework.data.mongodb.repository.MongoRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor">
+      <point x="89.66666666666663" y="-92.5" />
+      <point x="447.7061930091187" y="1058.0" />
+      <point x="499.2376266464031" y="1058.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.stock.StocksReport" target="lombok.AllArgsConstructor">
+      <point x="-84.0" y="-112.5" />
+      <point x="1496.8478596757855" y="1058.0" />
+      <point x="1360.0978596757855" y="1058.0" />
+      <point x="1360.0978596757855" y="501.0" />
+      <point x="1047.437626646403" y="501.0" />
+      <point x="51.59999999999991" y="48.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+      <point x="71.75" y="-136.5" />
+      <point x="215.25" y="133.0" />
+      <point x="244.16666666666652" y="133.0" />
+      <point x="-53.33333333333334" y="14.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.fdm0506.stockify.reportservice.repository.SharesRepository" target="org.springframework.data.mongodb.repository.MongoRepository">
+      <point x="-53.5" y="-26.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40456865215534504" x="1243.6282410401168" y="1118.6546107217682" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
